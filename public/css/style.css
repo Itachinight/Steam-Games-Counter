@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Caption');
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'PT Sans Captition', sans-serif;
+    font-size: 48px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin: 15px auto 0;
+}
+
+input, textarea {
+    display: block;
+    margin: 20px auto 0;
+}
+
+input:focus, textarea:focus {
+    outline: none !important;
+}
+
+#userText {
+    max-width: 75%;
+    min-width: 75%;
+    min-height: 100px;
+    border-radius: 25px;
+    padding: 15px 10px;
+    font-size: 14px;
+}
+
+#userText::placeholder {
+    font-size: 30px;
+    text-align: center;
+    line-height: 100px;
+}
+
+#userText:focus::placeholder {
+    color: transparent;
+}
+
+input[type="submit"] {
+    background: crimson;
+    border-radius: 30px;
+    border: none;
+    width: 200px;
+    height: 50px;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#gamesTable {
+    margin: 50px auto;
+    width: 40%;
+    font-size: 20px;
+    text-align: center;
+    background: lavenderblush;
+    border: 3px solid crimson;
+    border-collapse: collapse;
+}
+
+#gamesTable tr th {
+    font-size: 24px;
+    font-family: 'PT Sans Captition', sans-serif;
+    letter-spacing: 1px;
+}
+
+#gamesTable th, #gamesTable td {
+    border: 1px solid crimson;
+    padding: 7px;
+}
+
+#gamesTable a {
+    text-decoration: none;
+}
+
+#gamesTable a:hover {
+    opacity: 0.7;
+}

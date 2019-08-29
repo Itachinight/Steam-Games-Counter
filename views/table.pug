@@ -1,0 +1,12 @@
+tr
+    th Name
+    th Qty
+    th AppId
+
+
+each val in gamesList
+    tr
+        td= val.name
+        td= val.qty
+        td
+            a(href=`https://store.steampowered.com/app/${val.appid}` target="_blank") #{val.appid}
